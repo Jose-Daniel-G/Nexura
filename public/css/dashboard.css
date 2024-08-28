@@ -1,0 +1,36 @@
+resources/css/dashboard.css
+
+#sidebar {
+    height: 100vh;
+    padding-top: 1rem;
+    width: 250px; /* Ajusta según el ancho deseado */
+}
+
+.navbar-brand {
+    width: 250px; /* Asegúrate de que coincida con el ancho del sidebar */
+    text-align: center; /* Centra el texto dentro del enlace */
+    display: block; /* Asegúrate de que el enlace ocupe todo el ancho especificado */
+}
+
+/* Ajusta el padding del navbar para que el contenido no se desborde */
+.navbar {
+    padding-left: 0; /* Elimina el padding izquierdo */
+    padding-right: 0; /* Elimina el padding derecho */
+}
+
+#sidebar .nav-link {
+    font-size: 1.1rem;
+}
+
+#sidebar .nav-link.active {
+    font-weight: bold;
+}
+
+.card-body {
+    padding: 1rem;
+}
+
+.table td,
+.table th {
+    vertical-align: middle;
+}
