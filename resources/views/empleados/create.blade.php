@@ -56,7 +56,7 @@
                         <label class="form-check-label" for="boletin">Deseo recibir boletín informativo</label>
                     </div>
                     <div class="form-group">
-                        <label>Rol</label>
+                        <label>Roles *</label>
                         @foreach ($roles as $role)
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="role_{{ $role->id }}" name="roles[]"
